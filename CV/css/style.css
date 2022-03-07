@@ -1,0 +1,265 @@
+@font-face {
+    font-family: "Poppins-regular";
+    src: url("../assets/IV/fonts/Poppins-Regular.ttf");
+}
+@font-face {
+    font-family: "Poppins-bold";
+    src: url("../assets/IV/fonts/Poppins-SemiBold.ttf");
+}
+@font-face {
+    font-family: "Poppins-italic";
+    src: url("../assets/IV/fonts/Poppins-Italic.ttf");
+}
+@font-face {
+    font-family: "Poppins-bolditalic";
+    src: url("../assets/IV/fonts/Poppins-BoldItalic.ttf");
+}
+
+:root{
+--color1: #ffdd35  ;
+--color2: #f3f3f1;
+--color3: #0f0901 ;
+--color4: #ffdd35; 
+}
+
+/*Index*/
+
+body{
+    margin: 0 auto ;
+}
+
+/*MonCV*/
+
+.header-areaCV{
+    width: 100%;
+    height: 200px;
+    background-color: var(--color3);
+    display: flex;
+    align-items: center;
+
+}
+
+.header-menuCV{
+    display: flex;
+    font-size: 70px;
+    width: 150px;
+    margin-left: 25%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.PDP{
+    margin-top: 55%;
+    width: 175px;
+    height: 150px;
+}
+
+.header-nameCV{
+    color: var(--color2);
+    margin-left: 80%;
+}
+
+/*Body*/
+
+.bodyCV{
+    height: 750px;
+}
+
+.nav-bodyCV{
+    margin: 25px 2px 0px 2px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    background-color: var(--color4);
+    border-bottom: 0px 3px 2px solid rgb(15, 9, 1);
+   
+}
+
+.border-coordonnees{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    border-bottom: 3px solid black;
+}
+
+.nav-loca{
+    display: flex;
+
+}
+
+.loca{
+    margin-top: 13%;
+    margin-right: 25px ;
+    width: 25px;
+    height: 30px;
+}
+
+.nav-tele{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tele {
+    width: 25px;
+    height: 25px;
+   
+}
+
+.h3-tele{
+    margin-right: 25px;
+    padding-left: 10px;
+}
+
+.nav-courrier{
+    display: flex;
+    align-items: center;
+}
+
+.courrier{
+    width: 25px;
+    height: 20px;
+}
+
+.h3-courrier{
+    margin-right: 25px;
+    padding-left: 10px;
+}
+
+.border-compet{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    border-bottom: 3px solid black;
+}
+
+.nav-html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.html{
+    width: 50px;
+}
+
+.nav-css{
+    display: flex;
+    align-items: center;
+   margin-left: 10px;
+}
+
+.css{
+    width: 30px;
+    margin-right: 25px;
+}
+
+/* area body*/
+
+.nav-ps{
+    display: flex;
+    align-items: center;
+    
+}
+
+.ps{
+    width: 50px;
+}
+
+.body-area{
+    margin-top: 100px;
+    margin-left: 350px;
+    width: 800px;
+
+
+}
+
+.body-text{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.text-moti{
+    padding-right: 50px;
+    border-right: 2px solid black ;
+    height: 175%;
+    margin-left: 20px;
+
+}
+
+.text-par{
+    margin-left: 50px;
+    
+}
+
+.title-forma{
+    text-align: center;
+}
+
+.text-forma{
+    border-right: 2px solid black ;
+    height: 180px;
+    width: 500px;
+
+}
+
+.text-column{
+    flex-direction: column;
+    display: flex;
+}
+
+/*aside*/
+
+.aside-area{
+    margin-left: 1233px;
+    background-color: var(--color4);
+    width: 300px;
+    display: flex;
+}
+
+/* Page porte-folio */
+
+a , ul {
+    text-decoration: none ;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color1);
+    padding: 15px;
+    width: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover {
+    background-color: var(--color1);
+    color: var(--color3);
+    border-bottom: 4px solid var(--color2);
+    border-top: 4px solid var(--color2);
+    box-shadow: 0px 2px 10px var(--color1);
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color3);
+    
+   
+}
+
+.header-area{
+    background-color:var(--color3) ;
+    max-width: 1280px;
+    min-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    align-items: center;
+    justify-content: center ;
+}
+
